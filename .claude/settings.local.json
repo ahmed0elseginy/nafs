@@ -1,0 +1,12 @@
+{
+  "env": {
+    "ANTHROPIC_BASE_URL": "http://127.0.0.1:8787"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(./gradlew build *)",
+      "Bash(awk 'NR>=1 && NR<=220' \"/home/hazex01/Documents/GitHub/me-workspace/nafs/app/src/main/java/com/nafs/app/presentation/habitdetail/HabitDetailViewModel.kt\")",
+      "Bash(sed 's/\\\\$$//')"
+    ]
+  }
+}
