@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nafs</string>
+
+    <!-- Navigation -->
+    <string name="nav_today">Today</string>
+    <string name="nav_habits">Habits</string>
+    <string name="nav_areas">Areas</string>
+
+    <!-- Common actions -->
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_add">Add</string>
+    <string name="action_ok">OK</string>
+    <string name="action_back">Back</string>
+    <string name="action_close">Close</string>
+    <string name="score_percent">%1$d%%</string>
+
+    <!-- Today / daily check-in -->
+    <string name="today_progress_format">%1$d of %2$d completed</string>
+    <string name="today_day_score">Day score %1$d%%</string>
+    <string name="today_empty_title">Nothing scheduled today</string>
+    <string name="today_empty_message">A quiet day. Rest, or add a habit for tomorrow.</string>
+    <string name="checkin_note_add">Add note</string>
+    <string name="checkin_note_edit">Edit note</string>
+    <string name="note_dialog_title">Check-in note</string>
+    <string name="note_dialog_hint">How did it go?</string>
+    <string name="weekly_quota_progress">%1$d of %2$d this week</string>
+
+    <!-- Life areas -->
+    <string name="areas_title">Life areas</string>
+    <string name="areas_empty_title">No life areas yet</string>
+    <string name="areas_empty_message">Create the areas of your life you want to nurture.</string>
+    <string name="area_add">New area</string>
+    <string name="area_edit_title">Edit area</string>
+    <string name="area_name_label">Name</string>
+    <string name="area_icon_label">Icon</string>
+    <string name="area_color_label">Color</string>
+    <string name="area_weight_label">Weight in overall status</string>
+    <string name="area_weight_value">×%1$s</string>
+    <string name="area_delete_title">Delete “%1$s”?</string>
+    <string name="area_delete_message">All its habits and their check-in history will be deleted as well. This cannot be undone.</string>
+    <plurals name="habit_count">
+        <item quantity="one">%d habit</item>
+        <item quantity="other">%d habits</item>
+    </plurals>
+
+    <!-- Habits -->
+    <string name="habits_title">Habits</string>
+    <string name="habits_empty_title">No habits yet</string>
+    <string name="habits_empty_message">Add your first habit and start building momentum.</string>
+    <string name="habit_add">New habit</string>
+    <string name="habit_edit_title">Edit habit</string>
+    <string name="habit_delete_title">Delete “%1$s”?</string>
+    <string name="habit_delete_message">Its check-in history will be deleted as well.</string>
+    <string name="freq_daily">Daily</string>
+    <string name="freq_weekly">Weekly quota</string>
+    <string name="freq_specific_days">Specific days</string>
+    <string name="freq_weekly_label">%1$d× per week</string>
+
+    <!-- Habit editor -->
+    <string name="habit_name_label">Name</string>
+    <string name="habit_desc_label">Description (optional)</string>
+    <string name="habit_area_label">Life area</string>
+    <string name="habit_freq_label">Frequency</string>
+    <string name="habit_times_per_week">Times per week</string>
+    <string name="habit_days_label">On days</string>
+    <string name="habit_start_label">Start date</string>
+    <string name="habit_duration_label">Duration</string>
+    <string name="habit_duration_open">Open-ended</string>
+    <string name="habit_duration_days_label">Number of days</string>
+    <string name="habit_target_label">Weight within its area</string>
+    <string name="habit_reminder_label">Daily reminder</string>
+    <string name="habit_reminder_none">None</string>
+    <string name="habit_reminder_hint">Stored now — notifications arrive in Phase 4</string>
+    <string name="error_name_required">Name is required</string>
+    <string name="error_area_required">Pick a life area</string>
+    <string name="error_days_required">Pick at least one day</string>
+    <string name="error_duration_required">Enter how many days</string>
+
+    <!-- Habit detail -->
+    <string name="detail_streak">Streak</string>
+    <string name="detail_best_streak">Best</string>
+    <string name="detail_rate_30d">30-day score</string>
+    <string name="detail_last_14_days">Last 14 days</string>
+    <string name="detail_weekly_chart">Weekly completion</string>
+    <string name="detail_notes">Recent notes</string>
+    <string name="detail_no_notes">No notes yet.</string>
+    <string name="detail_not_enough_data">Not enough history yet.</string>
+    <string name="detail_started">Started %1$s</string>
+    <string name="detail_ends">Ends %1$s</string>
+    <plurals name="streak_days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <plurals name="streak_weeks">
+        <item quantity="one">%d week</item>
+        <item quantity="other">%d weeks</item>
+    </plurals>
+    <string name="trend_up">Improving</string>
+    <string name="trend_down">Declining</string>
+    <string name="trend_steady">Steady</string>
+
+    <!-- Overall / Stats -->
+    <string name="overall_title">Status</string>
+    <string name="overall_empty_title">No status yet</string>
+    <string name="overall_empty_message">Keep tracking to see your progress here.</string>
+    <string name="overall_by_area">Breakdown by area</string>
+    <string name="overall_status_label">Overall status</string>
+    <string name="overall_window_caption">Last 14 days</string>
+    <string name="overall_counts">%1$d areas · %2$d habits</string>
+    <string name="overall_chart_title">Score over the last %1$d weeks</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_theme">Appearance</string>
+    <string name="settings_theme_system">System default</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_system">System default</string>
+    <string name="settings_language_english">English</string>
+    <string name="settings_language_arabic">العربية</string>
+    <string name="settings_data">Data management</string>
+    <string name="settings_reset_demo">Restore demo data</string>
+    <string name="settings_reset_demo_desc">Wipes all current data and re-inserts the sample habits and history.</string>
+    <string name="settings_reset_demo_action">Reset</string>
+    <string name="settings_reset_confirm_title">Reset to demo data?</string>
+    <string name="settings_reset_confirm_message">This will delete all your current habits and history and replace them with the initial sample data. This cannot be undone.</string>
+    <string name="settings_clear">Clear all data</string>
+    <string name="settings_clear_desc">Deletes every habit, area, and check-in. Start from a blank slate.</string>
+    <string name="settings_clear_action">Clear all</string>
+    <string name="settings_clear_confirm_title">Clear everything?</string>
+    <string name="settings_clear_confirm_message">All your data will be permanently deleted. Are you sure?</string>
+    <string name="settings_about">About</string>
+    <string name="settings_about_tagline">Building better versions of ourselves, one habit at a time.</string>
+    <string name="settings_version">Version %1$s</string>
+
+    <!-- Seed life areas -->
+    <string name="seed_area_quran">Quran</string>
+    <string name="seed_area_study">Study</string>
+    <string name="seed_area_health">Health</string>
+    <string name="seed_area_fitness">Fitness</string>
+    <string name="seed_area_english">English</string>
+    <string name="seed_area_work">Work</string>
+
+    <!-- Seed habits -->
+    <string name="seed_habit_read_quran">Read Quran</string>
+    <string name="seed_habit_memorize">Memorize Quran</string>
+    <string name="seed_habit_study">Study session</string>
+    <string name="seed_habit_sleep">8h sleep</string>
+    <string name="seed_habit_water">Drink water</string>
+    <string name="seed_habit_workout">Workout</string>
+    <string name="seed_habit_english">English practice</string>
+    <string name="seed_habit_deep_work">Deep work</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Abstract leaf: quiet growth -->
+    <path
+        android:fillColor="#F6F1E7"
+        android:pathData="M36,72 C36,48 48,36 72,36 C72,60 60,72 36,72 Z" />
+    <path
+        android:fillColor="#0E5A4F"
+        android:pathData="M40,68 C52,64 60,56 66,42 C60,56 52,64 40,68 Z"
+        android:strokeColor="#0E5A4F"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+</vector>
